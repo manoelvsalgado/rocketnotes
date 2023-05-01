@@ -1,4 +1,3 @@
-import { RiShutDownLine } from 'react-icons/ri';
 import { Container, Profile, Logout, Search } from './styles';
 import { Link } from 'react-router-dom';
 import { Input } from '../Input';
@@ -17,12 +16,10 @@ export function Header() {
         <strong>Manoel Salgado</strong>
       </div>
       <Logout>
-        <a href="/" title="Sair" />
+        <a href="/">
+          Sair 
+        </a>
       </Logout>
-        <img 
-        src="https://github.com/manoelvsalgado.png"
-        alt="Foto de Usuário"
-        />
     </Profile>
     </Container>
   );
