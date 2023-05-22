@@ -16,8 +16,12 @@ export const Container = styled.div`
 
     svg {
       color: ${({ theme }) => theme.COLORS.GRAY_100};
-      font: 24px;
     }
+
+    button {
+      background: none;
+      border: none
+     }
   }
 `;
 
